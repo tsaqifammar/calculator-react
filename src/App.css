@@ -48,6 +48,18 @@ button:hover {
   align-items: center;
 }
 
+@media (max-width: 1000px) {
+  #calculator-board {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 650px) {
+  #calculator-board {
+    width: 60vw;
+  }
+}
+
 #calculator-content {
   height: 80%;
   display: flex;
